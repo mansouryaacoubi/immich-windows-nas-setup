@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Check if we're inside Docker Desktop WSL
 if [[ "$(hostname)" != "docker-desktop" ]]; then
