@@ -28,9 +28,10 @@
 2. Start Docker Desktop
 3. wsl --distribution docker-desktop
 4. cd /root
-5. wget https://gist.githubusercontent.com/mansouryaacoubi/7b021206efa4a1c4ff95b4e851d23902/raw/6667a7ef46fc9640d8e7692c9611e35837d3ca90/setup-network-drive.sh
+5. wget https://raw.githubusercontent.com/mansouryaacoubi/immich-windows-nas-setup/refs/heads/main/setup-network-drive.sh
 6. chmod +x setup-network-drive.sh
 7. ./setup-network-drive.sh
 8. exit
-9. Execute Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-10. ./install-immich.ps1
+9. wget https://raw.githubusercontent.com/mansouryaacoubi/immich-windows-nas-setup/refs/heads/main/install-immich.ps1 
+10. Execute Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+11. ./install-immich.ps1
