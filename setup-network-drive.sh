@@ -7,7 +7,7 @@ if [[ "$(hostname)" != "docker-desktop" ]]; then
     exit 1
 fi
 
-NAS_IP="192.168.178.134"
+read -rp "Enter NAS IP: " NAS_IP
 NAS_SHARE="Public"
 MOUNT_POINT="/mnt/z"
 CREDENTIALS_FILE="/etc/smb-credentials"

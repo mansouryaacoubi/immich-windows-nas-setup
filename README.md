@@ -5,7 +5,7 @@
 ## Connect NAS to Docker Desktop WSL
 1. wsl --distribution docker-desktop
 2. mkdir -p /mnt/z
-3. Edit /etc/fstab and add //192.168.178.134/Public /mnt/z cifs auto,username=YaacoubiCloud,password=redacted 0 0
+3. Edit /etc/fstab and add //NAS_IP/Public /mnt/z cifs auto,username=YaacoubiCloud,password=redacted 0 0
 4. mount -a
 5. Check /mnt/z whether it has been mounted
 
