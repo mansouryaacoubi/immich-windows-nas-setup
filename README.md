@@ -2,7 +2,7 @@
 
 ```ps1
 winget install -e --id Docker.DockerDesktop
-start "%ProgramFiles%\Docker\Docker\Docker Desktop.exe"
+start "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 # Wait for Docker to startup and do the config steps
 wsl --distribution docker-desktop
 ```
